@@ -1,0 +1,24 @@
+Generate 30 unique and creative blog post ideas related to technology, including a wide range of interesting, relevant, and emerging tech topics.
+
+Distribute the 30 ideas equally across the following categories: "Tools", "Web Development", "AI", and "Others" (i.e., 7 or 8 ideas per category). Categories must be balanced.
+
+Each blog post idea must include:
+- A compelling and original **title** in Portuguese
+- A short **description** in Portuguese (max. 200 characters)
+- The appropriate **category**, written exactly as "Tools", "Web Development", "AI", or "Others"
+
+You may include topics like futuristic tech, AI, programming, developer tools, new frameworks, digital privacy, tech ethics, quantum computing, and other tech-adjacent ideas.
+
+Do not repeat ideas or copy existing content from the web. Be creative, insightful, and helpful.
+
+Return only a JSON array with this format:
+[
+  {
+    "title": "Post title here",
+    "description": "Short description in Portuguese, max. 200 characters",
+    "category": "One of the four categories above"
+  },
+  ...
+]
+
+The output must contain exactly 30 objects.

@@ -1,0 +1,39 @@
+name: CI CD Prod
+on:
+  push:
+    branches:
+      - main
+jobs:
+  setup-env:
+    name: env
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Setup environment
+        run: touch .env
+
+      - name: Adding values in .env
+        run: |
+            echo "APP_URL=${{vars.APP_URL}}" >> .env
+            echo "DB_DRIVER=${{vars.DB_DRIVER}}" >> .env
+            echo "DB_NAME=${{vars.DB_NAME}}" >> .env
+            echo "DB_HOST=${{vars.DB_HOST}}" >> .env
+            echo "DB_PASSWORD=${{secrets.DB_PASSWORD}}" >> .env
+            echo "DB_USER=${{vars.DB_USER}}" >> .env
+            echo "APP_STAGE=${{vars.APP_STAGE}}" >> .env
+            echo "APP_DEBUG=${{vars.APP_DEBUG}}" >> .env
+            echo "RECAPTCHA_URL=${{vars.RECAPTCHA_URL}}" >> .env
+            echo "RECAPTCHA_SECRET=${{secrets.RECAPTCHA_SECRET}}" >> .env
+            echo "SENTRY_DNS=${{secrets.SENTRY_DNS}}" >> .env
+            echo "OPENAI_API_KEY=${{secrets.OPENAI_API_KEY}}" >> .env
+
+      - name: Deploy .env - Sync file
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          local-dir: ./
+          server: ${{ vars.FTP_HOST }}
+          username: ${{ vars.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ vars.FTP_SERVER_DIR }}
