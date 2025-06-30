@@ -29,11 +29,11 @@ jobs:
             echo "SENTRY_DNS=${{secrets.SENTRY_DNS}}" >> .env
             echo "OPENAI_API_KEY=${{secrets.OPENAI_API_KEY}}" >> .env
 
-      - name: Deploy .env - Sync file
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          local-dir: ./
-          server: ${{ vars.FTP_HOST }}
-          username: ${{ vars.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ vars.FTP_SERVER_DIR }}
+      # - name: Deploy .env - Sync file
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      #   with:
+      #     local-dir: ./
+      #     server: ${{ vars.FTP_HOST }}
+      #     username: ${{ vars.FTP_USER }}
+      #     password: ${{ secrets.FTP_PASSWORD }}
+      #     server-dir: ${{ vars.FTP_SERVER_DIR }}
