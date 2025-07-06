@@ -1,9 +1,9 @@
 {
-    "name": "Toolz",
-    "short_name": "Toolz",
+    "name": "Englsih Tips",
+    "short_name": "Englsih Tips",
     "start_url": "/",
     "background_color": "#0066cc",
-    "description": "The best free tools creator",
+    "description": "The best website to learning Englsih",
     "display": "standalone",
     "theme_color": "#0066cc",
     "orientation": "portrait-primary",
