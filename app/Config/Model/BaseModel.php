@@ -72,12 +72,24 @@ abstract class BaseModel extends Connection
      * @param array $params
      * @return int|bool
      */
-    protected static function save(string $query, array $params): int|bool
+    protected static function save(string $query, array $params): mixed
     {
         try {
             $stmt = parent::$conn->prepare($query);
             $stmt->execute($params);
             return parent::$conn->lastInsertId();
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+            return false;
+        }
+    }
+
+    protected static function execUpdate(string $query, array $params): int
+    {
+        try {
+            $stmt = parent::$conn->prepare($query);
+            $stmt->execute($params);
+            return $stmt->rowCount();
         } catch (PDOException $e) {
             echo $e->getMessage();
             return false;
@@ -97,6 +109,29 @@ abstract class BaseModel extends Connection
         $data = $dataPDO;
 
         return "INSERT INTO {$table} ($dataParams) VALUES ($dataValues)";
+    }
+
+
+    /**
+     * @param array $data
+     * @param string $table
+     * @return string
+     */
+    protected static function prepareQueryReplace(array &$data, string $table): string
+    {
+        $dataPDO = self::generateArrayDataPDO($data);
+        $dataValues = [];
+        foreach ($dataPDO as $key => $value) {
+            $value = $key;
+            $key = str_replace(':', '', $key);
+            $dataValues[] = "{$key} = {$value}";
+        }
+
+        $dataValues = implode(', ', $dataValues);
+
+        $data = $dataPDO;
+
+        return "REPLACE INTO {$table} SET $dataValues";
     }
 
     /**

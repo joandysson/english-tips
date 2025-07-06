@@ -2,7 +2,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     initBlogFilters();
     initBlogSearch();
-    initLoadMore();
     handleCategoryFromURL();
 });
 
@@ -113,114 +112,6 @@ function performSearch() {
         const filterButtons = document.querySelectorAll('.filter-buttons .btn');
         filterButtons.forEach(btn => btn.classList.remove('active'));
     }
-}
-
-// Load more functionality
-function initLoadMore() {
-    const loadMoreBtn = document.getElementById('loadMoreBtn');
-    if (!loadMoreBtn) return;
-
-    loadMoreBtn.addEventListener('click', function() {
-        // Simulate loading more posts
-        this.innerHTML = '<i class="bi bi-hourglass-split me-2"></i>Carregando...';
-        this.disabled = true;
-
-        setTimeout(() => {
-            // In a real application, you would fetch more posts from an API
-            loadMorePosts();
-
-            this.innerHTML = '<i class="bi bi-arrow-down-circle me-2"></i>Carregar Mais Artigos';
-            this.disabled = false;
-        }, 1500);
-    });
-}
-
-function loadMorePosts() {
-    // Simulate adding more posts
-    const blogContainer = document.getElementById('blogPosts');
-    const newPosts = generateMorePosts(6); // Generate 6 more posts
-
-    newPosts.forEach(postHTML => {
-        const postElement = document.createElement('div');
-        postElement.className = 'col-lg-4 col-md-6 blog-post';
-        postElement.innerHTML = postHTML;
-        blogContainer.appendChild(postElement);
-    });
-
-    // Initialize animations for new posts
-    const newPostElements = blogContainer.querySelectorAll('.blog-post:not(.animated)');
-    newPostElements.forEach(post => {
-        post.classList.add('animated', 'fade-in-up');
-    });
-}
-
-function generateMorePosts(count) {
-    const categories = [
-        { name: 'Gramática', class: 'bg-primary', slug: 'gramatica' },
-        { name: 'Vocabulário', class: 'bg-success', slug: 'vocabulario' },
-        { name: 'Viagem', class: 'bg-warning', slug: 'viagem' },
-        { name: 'Trabalho', class: 'bg-info', slug: 'trabalho' },
-        { name: 'Estudo', class: 'bg-secondary', slug: 'estudo' }
-    ];
-
-    const titles = [
-        'Como Usar os Tempos Verbais Corretamente',
-        'Expressões Idiomáticas Mais Comuns',
-        'Dicas para Melhorar a Pronúncia',
-        'Vocabulário Essencial para Negócios',
-        'Como Estudar Inglês Sozinho',
-        'Diferenças entre Inglês Americano e Britânico'
-    ];
-
-    const descriptions = [
-        'Aprenda as regras fundamentais dos tempos verbais em inglês com exemplos práticos.',
-        'Descubra as expressões mais usadas pelos nativos no dia a dia.',
-        'Técnicas eficazes para aperfeiçoar sua pronúncia em inglês.',
-        'Vocabulário profissional para se destacar no mercado de trabalho.',
-        'Métodos comprovados para acelerar seu aprendizado autodidata.',
-        'Entenda as principais diferenças entre as variantes do inglês.'
-    ];
-
-    const images = [
-        'https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/3184394/pexels-photo-3184394.jpeg?auto=compress&cs=tinysrgb&w=800'
-    ];
-
-    const posts = [];
-
-    for (let i = 0; i < count; i++) {
-        const category = categories[i % categories.length];
-        const title = titles[i % titles.length];
-        const description = descriptions[i % descriptions.length];
-        const image = images[i % images.length];
-        const date = new Date();
-        date.setDate(date.getDate() - (i + 1));
-
-        const postHTML = `
-            <article class="blog-card h-100" data-category="${category.slug}">
-                <div class="blog-card-image">
-                    <img src="${image}" alt="${title}" class="w-100">
-                </div>
-                <div class="blog-card-content p-4">
-                    <div class="blog-meta mb-2">
-                        <span class="badge ${category.class}">${category.name}</span>
-                        <span class="text-muted ms-2">${formatDate(date)}</span>
-                    </div>
-                    <h5 class="fw-semibold mb-3">${title}</h5>
-                    <p class="text-muted mb-3">${description}</p>
-                    <a href="article.html" class="btn btn-outline-primary btn-sm rounded-pill">Ler Mais</a>
-                </div>
-            </article>
-        `;
-
-        posts.push(postHTML);
-    }
-
-    return posts;
 }
 
 // Handle category from URL parameter

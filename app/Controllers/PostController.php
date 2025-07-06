@@ -3,38 +3,41 @@
 namespace App\Controllers;
 
 use App\Services\PostService;
+use App\Services\CategoryService;
 
 class PostController
 {
     private PostService $postService;
+    private CategoryService $categoryService;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->postService = new PostService();
+        $this->categoryService = new CategoryService();
     }
 
     public function blog(array $data): void
     {
-        // $page = $data['page'] ?? 1;
+        $page = $data['page'] ?? 1;
 
-        // if($page < 1) {
-        //     http_response_code(404);
-        //     view('404');
-        //     return;
-        // }
+        if ($page < 1) {
+            http_response_code(404);
+            view('404');
+            return;
+        }
 
-        // $page = $data['page'] ?? 1;
-        // $posts = $this->postService->paginate($page);
+        $page = $data['page'] ?? 1;
+        $posts = $this->postService->paginate($page);
 
-        // if (!$posts['data']) {
-        //     http_response_code(404);
-        //     view('404');
-        //     return;
-        // }
+        if (!$posts['data']) {
+            http_response_code(404);
+            view('404');
+            return;
+        }
 
-        // $categories = array_unique(array_column($posts['data'], 'category'));
+        $categories = $this->categoryService->all();
 
-        // view('blog', ['data' => $posts, 'categories' => $categories]);
-        view('blog');
+        view('blog', ['data' => $posts, 'categories' => $categories]);
     }
 
     public function read(array $data): void
@@ -54,7 +57,7 @@ class PostController
         }
 
         $limit = 2;
-        $postsByCategory = $this->postService->getByCategory($post['category'], $limit, [$data['id']]);
+        $postsByCategory = $this->postService->getByCategory($post['category_id'], $limit, [$data['id']]);
         $nextPost = $this->postService->get($data['id'] + 1);
         if ($nextPost['status'] === 'draft') {
             $nextPost = [];

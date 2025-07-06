@@ -1,7 +1,7 @@
 <?php
-$title = __('Page Not Found');
-$description = __('Opss! page not found!');
-$keywords = __('Page Not Found');
+$title = __('');
+$description = __('');
+$keywords = __('');
 ?>
 
 <?php $headExtra = section(function () { ?>
@@ -58,33 +58,23 @@ $keywords = __('Page Not Found');
                             <p class="text-white-50 mb-0">Preencha os dados abaixo e comece hoje mesmo</p>
                         </div>
 
-                        <form id="newsletterForm">
+                        <form id="newsletterForm" method="post" action="/newsletter">
                             <div class="mb-3">
                                 <label for="firstName" class="form-label fw-medium">Nome *</label>
                                 <input type="text" class="form-control form-control-lg" id="firstName"
-                                    placeholder="Seu primeiro nome" required>
+                                    placeholder="Seu primeiro nome" name="name" value="" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-medium">E-mail *</label>
                                 <input type="email" class="form-control form-control-lg" id="email"
-                                    placeholder="seu@email.com" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="level" class="form-label fw-medium">Nível de Inglês</label>
-                                <select class="form-select form-select-lg" id="level">
-                                    <option value="">Selecione seu nível</option>
-                                    <option value="iniciante">Iniciante</option>
-                                    <option value="basico">Básico</option>
-                                    <option value="intermediario">Intermediário</option>
-                                    <option value="avancado">Avançado</option>
-                                </select>
+                                    placeholder="seu@email.com" name="email" value="" required>
                             </div>
                             <div class="mb-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" id="privacy" required>
                                     <label class="form-check-label text-white-50" for="privacy">
                                         Concordo em receber emails com dicas de inglês e aceito os
-                                        <a href="#" class="text-primary">termos de privacidade</a>
+                                        <a href="/privacy-policy" class="text-primary">termos de privacidade</a>
                                     </label>
                                 </div>
                             </div>
@@ -106,7 +96,7 @@ $keywords = __('Page Not Found');
     </section>
 
     <!-- What You'll Receive -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-dark">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-5 fw-bold mb-3">O que você vai receber</h2>
@@ -198,7 +188,7 @@ $keywords = __('Page Not Found');
             </div>
             <div class="row g-4">
                 <div class="col-lg-4">
-                    <div class="testimonial-card p-4 h-100 bg-light rounded">
+                    <div class="testimonial-card p-4 h-100 bg-dark rounded">
                         <div class="stars mb-3">
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
@@ -221,7 +211,7 @@ $keywords = __('Page Not Found');
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="testimonial-card p-4 h-100 bg-light rounded">
+                    <div class="testimonial-card p-4 h-100 bg-dark rounded">
                         <div class="stars mb-3">
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
@@ -244,7 +234,7 @@ $keywords = __('Page Not Found');
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="testimonial-card p-4 h-100 bg-light rounded">
+                    <div class="testimonial-card p-4 h-100 bg-dark rounded">
                         <div class="stars mb-3">
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
@@ -271,7 +261,7 @@ $keywords = __('Page Not Found');
     </section>
 
     <!-- FAQ -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-dark">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-5 fw-bold mb-3">Dúvidas Frequentes</h2>

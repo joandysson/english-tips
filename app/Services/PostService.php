@@ -18,10 +18,8 @@ class PostService
         return $this->postRepository->getById($id);
     }
 
-    public function paginate(int $page): array
+    public function paginate(int $page, $perPage = 9): array
     {
-        $perPage = 9;
-
         return array_merge(
             $this->postRepository->paginate($page, $perPage),
             ['current_page' => $page]

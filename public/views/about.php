@@ -9,7 +9,7 @@ $keywords = __('');
 
 <?php $content = section(function () { ?>
     <!-- Header -->
-    <section class="page-header py-5 mt-5 bg-light">
+    <section class="page-header py-5 bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
@@ -55,7 +55,7 @@ $keywords = __('');
     </section>
 
     <!-- Mission & Vision -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-dark">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-5 fw-bold mb-3">Nossos Valores</h2>
@@ -230,7 +230,7 @@ $keywords = __('');
     </section>
 
     <!-- CTA Section -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-dark">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">

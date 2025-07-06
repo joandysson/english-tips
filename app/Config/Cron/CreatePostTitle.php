@@ -37,6 +37,8 @@ class CreatePostTitle implements CronInterface
 
         $json = $response->choices[0]->message->content;
 
+        var_dump($json);
+
         $data = json_decode($json, true);
 
         if (json_last_error() === JSON_ERROR_NONE) {
@@ -48,7 +50,7 @@ class CreatePostTitle implements CronInterface
                     $data = $this->postRepository->create([
                         'title' => $value['title'],
                         'slug' => $this->gerarSlug($value['title']),
-                        'category' => $value['category'],
+                        'category_id' => $value['category_id'],
                         'excerpt' => $value['description'],
                     ]);
                 } catch (\Throwable $th) {
@@ -63,7 +65,6 @@ class CreatePostTitle implements CronInterface
             echo "Resposta bruta:\n" . $json;
         }
     }
-
 
     private function gerarSlug($titulo) {
         $slug = strtolower(iconv('UTF-8', 'ASCII//TRANSLIT', $titulo));

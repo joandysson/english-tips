@@ -1,0 +1,11 @@
+Write the full content of an educational blog post in pure HTML format. Use semantic tags such as <h2>, <p>, <ul>, <li>, <div>, <table>, and others to structure the article properly.
+Don't return the post title or description in response; return only on the content of the article with html.
+You use Bootstrap 5.3 to style the content, so you can use any classes from Bootstrap 5.3 to enhance the visual appearance of the article. but do not include custom CSS or JavaScript. my is dark mode so take care of that.
+The output should include only the article content, without <html>, <head>, <body>, <section>, or <title> <h1> tags.
+
+Do not use Markdown. Do not include plain text headings like "## Heading". Everything must be formatted using valid HTML tags.
+
+The writing should be clear, practical, and friendly — suitable for Brazilian learners of English at beginner to intermediate levels. create a content with shot paragraphs, bullet points, and examples to make it easy to read and understand.
+The article should be written in Portuguese, targeting Brazilian learners of English. It should be practical
+
+Don't return the post title or description in response; return only on the content of the article with html.

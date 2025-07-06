@@ -9,11 +9,11 @@ $keywords = __('');
 
 <?php $content = section(function () { ?>
     <!-- Header -->
-    <section class="page-header py-5 mt-5 bg-light">
+    <section class="page-header py-5 bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-4 fw-bold text-dark mb-3">Política de Privacidade</h1>
+                    <h1 class="display-4 fw-bold mb-3">Política de Privacidade</h1>
                     <p class="lead text-white-50">Como coletamos, usamos e protegemos suas informações pessoais</p>
                     <div class="mt-3">
                         <small class="text-white-50">
@@ -32,7 +32,7 @@ $keywords = __('');
                 <div class="col-lg-8 mx-auto">
                     <div class="privacy-content">
                         <!-- Introduction -->
-                        <div class="section-intro mb-5 p-4 bg-light rounded">
+                        <div class="section-intro mb-5 p-4 bg-dark rounded">
                             <h5 class="fw-bold text-primary mb-3">
                                 <i class="bi bi-shield-check me-2"></i>Compromisso com sua Privacidade
                             </h5>
@@ -45,7 +45,7 @@ $keywords = __('');
 
                         <!-- 1. Informações que Coletamos -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">1. Informações que Coletamos</h2>
+                            <h2 class="h3 fw-bold mb-4">1. Informações que Coletamos</h2>
 
                             <h4 class="h5 fw-semibold mb-3">1.1 Informações Fornecidas Voluntariamente</h4>
                             <ul class="mb-4">
@@ -66,7 +66,7 @@ $keywords = __('');
 
                         <!-- 2. Como Usamos suas Informações -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">2. Como Usamos suas Informações</h2>
+                            <h2 class="h3 fw-bold mb-4">2. Como Usamos suas Informações</h2>
 
                             <div class="row g-4">
                                 <div class="col-md-6">
@@ -126,7 +126,7 @@ $keywords = __('');
 
                         <!-- 3. Compartilhamento de Informações -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">3. Compartilhamento de Informações</h2>
+                            <h2 class="h3 fw-bold mb-4">3. Compartilhamento de Informações</h2>
 
                             <div class="alert alert-success" role="alert">
                                 <h5 class="alert-heading fw-bold">
@@ -151,9 +151,9 @@ $keywords = __('');
 
                         <!-- 4. Cookies e Tecnologias Similares -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">4. Cookies e Tecnologias Similares</h2>
+                            <h2 class="h3 fw-bold mb-4">4. Cookies e Tecnologias Similares</h2>
 
-                            <div class="cookie-info p-4 bg-light rounded mb-4">
+                            <div class="cookie-info p-4 bg-dark rounded mb-4">
                                 <h5 class="fw-semibold mb-3">O que são Cookies?</h5>
                                 <p class="mb-0">
                                     Cookies são pequenos arquivos de texto armazenados em seu dispositivo
@@ -206,7 +206,7 @@ $keywords = __('');
 
                         <!-- 5. Segurança dos Dados -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">5. Segurança dos Dados</h2>
+                            <h2 class="h3 fw-bold mb-4">5. Segurança dos Dados</h2>
 
                             <div class="row g-4">
                                 <div class="col-md-6">
@@ -258,7 +258,7 @@ $keywords = __('');
 
                         <!-- 6. Seus Direitos -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">6. Seus Direitos</h2>
+                            <h2 class="h3 fw-bold mb-4">6. Seus Direitos</h2>
 
                             <p class="mb-4">
                                 De acordo com a Lei Geral de Proteção de Dados (LGPD), você tem os seguintes direitos:
@@ -349,9 +349,9 @@ $keywords = __('');
 
                         <!-- 7. Retenção de Dados -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">7. Retenção de Dados</h2>
+                            <h2 class="h3 fw-bold mb-4">7. Retenção de Dados</h2>
 
-                            <div class="retention-info p-4 bg-light rounded">
+                            <div class="retention-info p-4 bg-dark rounded">
                                 <h5 class="fw-semibold mb-3">Períodos de Retenção</h5>
                                 <ul class="mb-0">
                                     <li><strong>Newsletter:</strong> Mantemos seus dados enquanto você estiver inscrito</li>
@@ -369,7 +369,7 @@ $keywords = __('');
 
                         <!-- 8. Transferências Internacionais -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">8. Transferências Internacionais</h2>
+                            <h2 class="h3 fw-bold mb-4">8. Transferências Internacionais</h2>
 
                             <p>
                                 Alguns de nossos prestadores de serviços podem estar localizados fora do Brasil.
@@ -385,7 +385,7 @@ $keywords = __('');
 
                         <!-- 9. Menores de Idade -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">9. Menores de Idade</h2>
+                            <h2 class="h3 fw-bold mb-4">9. Menores de Idade</h2>
 
                             <div class="alert alert-warning" role="alert">
                                 <h5 class="alert-heading fw-bold">
@@ -401,7 +401,7 @@ $keywords = __('');
 
                         <!-- 10. Alterações na Política -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">10. Alterações nesta Política</h2>
+                            <h2 class="h3 fw-bold mb-4">10. Alterações nesta Política</h2>
 
                             <p>
                                 Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças
@@ -421,7 +421,7 @@ $keywords = __('');
 
                         <!-- Contact Information -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">11. Entre em Contato</h2>
+                            <h2 class="h3 fw-bold mb-4">11. Entre em Contato</h2>
 
                             <div class="contact-dpo p-4 bg-primary text-white rounded">
                                 <h5 class="fw-bold mb-3">
@@ -445,7 +445,7 @@ $keywords = __('');
                         </section>
 
                         <!-- Footer Info -->
-                        <div class="policy-footer text-center p-4 bg-light rounded">
+                        <div class="policy-footer text-center p-4 bg-dark rounded">
                             <p class="mb-2"><strong>English Tips - Política de Privacidade</strong></p>
                             <p class="small text-white-50 mb-0">
                                 Esta política está em conformidade com a Lei Geral de Proteção de Dados (LGPD)

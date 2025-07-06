@@ -8,12 +8,12 @@ use DateTime;
 /**
  * @package App\Models
  */
-class Post extends BaseModel
+class Newsletter extends BaseModel
 {
     /**
      * @var string
      */
-    private static string $table = 'posts';
+    private static string $table = 'newsletters';
 
     /**
      * @return array
@@ -30,7 +30,7 @@ class Post extends BaseModel
 
     public function keysetPagination(int $lastPage, int $perPage)
     {
-        return parent::queryRaw('SELECT p.*, c.name as category, c.slug as category_slug FROM ' . self::$table . ' as p JOIN categories c ON p.category_id = c.id WHERE p.id <= ' . $lastPage . ' AND p.status = "published" AND p.content IS NOT NULL ORDER BY id DESC LIMIT ' . $perPage);
+        return parent::queryRaw('SELECT * FROM ' . self::$table . ' WHERE id <= ' . $lastPage . ' AND status = "published" AND content IS NOT NULL ORDER BY id DESC LIMIT ' . $perPage);
     }
 
     public function getTotal()
@@ -64,16 +64,18 @@ class Post extends BaseModel
      */
     public static function byId(int $id): mixed
     {
-        $result = parent::queryRaw('SELECT p.*, c.name as category, c.slug as category_slug FROM ' . self::$table . '  as p JOIN categories c ON p.category_id = c.id WHERE p.id = ? AND p.deleted_at IS NULL', [$id]);
+        $result = parent::queryRaw('SELECT * FROM ' . self::$table . ' WHERE id = ? AND deleted_at IS NULL', [$id]);
 
         return current($result);
     }
 
-    public function getByShortId(string $shorId): mixed
+    public function getByEmail(string $email, bool $deletedAt = true): mixed
     {
+        $deletedAtCondition = $deletedAt ? ' AND deleted_at IS NULL' : '';
+
         $result = parent::queryRaw(
-            'SELECT * FROM ' . self::$table . ' WHERE short_id = ? AND deleted_at IS NULL',
-            [$shorId]
+            'SELECT * FROM ' . self::$table . ' WHERE email = ?' . $deletedAtCondition,
+            [$email]
         );
 
         return current($result);
@@ -100,6 +102,14 @@ class Post extends BaseModel
         return self::byId($result);
     }
 
+    public static function replace(array $data): mixed
+    {
+        $query = parent::prepareQueryReplace($data, self::$table);
+        $result = parent::save($query, $data);
+
+        return self::byId($result);
+    }
+
     public static function update(int $id, array $data): mixed
     {
         $query = parent::prepareQueryUpdate($data, $id, self::$table);
@@ -108,50 +118,40 @@ class Post extends BaseModel
         return self::byId($id);
     }
 
-    public static function deleteByShortId(string $shortId): void
+    public static function deleteByEmail(string $shortId): void
     {
         $date = date('Y-m-d H:i:s');
 
         $sql = 'UPDATE ' . self::$table;
         $sql .= ' SET deleted_at = :deleted_at, updated_at = :updated_at';
-        $sql .= ' WHERE short_id = :id';
+        $sql .= ' WHERE emial = :email';
 
         self::save($sql, [
             ':deleted_at' => $date,
             ':updated_at' => $date,
-            ':id' => $shortId
+            ':email' => $shortId
         ]);
     }
-
-    public static function deleteByShortIds(array $shortIds): void
+    public static function deleteByEmails(array $emails): int
     {
-        $param = self::formatParam($shortIds);
+        $param = self::formatParam($emails);
         $keys = implode(',', array_keys($param));
 
-        self::updateDeletedAtByFieldValue('short_id', $keys, $param);
-    }
-
-    public static function deleteByUrls(array $urls): void
-    {
-        $param = self::formatParam($urls);
-        $keys = implode(',', array_keys($param));
-
-        self::updateDeletedAtByFieldValue('url', $keys, $param);
+        return self::updateDeletedAtByFieldValue('email', $keys, $param);
     }
 
 
-    private static function updateDeletedAtByFieldValue(string $field, string $value, array $params): void
+    private static function updateDeletedAtByFieldValue(string $field, string $value, array $params): int
     {
         $date = date('Y-m-d H:i:s');
 
         $sql = 'UPDATE ' . self::$table;
-        $sql .= ' SET deleted_at = :deleted_at, updated_at = :updated_at';
+        $sql .= ' SET deleted_at = :deleted_at';
         $sql .= ' WHERE ' . $field . ' in (' . $value . ')';
         $sql .= ' AND deleted_at IS NULL';
 
-        self::save($sql, [
-            ':deleted_at' => $date,
-            ':updated_at' => $date,
+        return self::execUpdate($sql, [
+            ':deleted_at' => $date
         ] + $params);
     }
 
@@ -164,18 +164,5 @@ class Post extends BaseModel
         }
 
         return $param;
-    }
-
-    public function getByCategory(string $category, int $limit, array $exceptIds = []): array | null
-    {
-        $except = '';
-        if (!empty($exceptIds)) {
-            $except = ' AND p.id NOT IN (' . implode(',', $exceptIds) . ')';
-        }
-
-        $query = 'SELECT p.*, c.name as category, c.slug as category_slug FROM ' . self::$table . ' as p JOIN categories c ON p.category_id = c.id WHERE p.published_at IS NOT NULL AND p.status = "published" AND p.category_id = ?' . $except . ' ORDER BY RAND() LIMIT ' . $limit;
-        $params = [$category];
-
-        return parent::queryRaw($query, $params);
     }
 }

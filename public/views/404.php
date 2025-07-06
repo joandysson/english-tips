@@ -38,7 +38,7 @@ $keywords = __('Page Not Found');
                             Mas não se preocupe, temos muito conteúdo incrível para você descobrir!
                         </p>
 
-                        <div class="error-message mb-4 p-3 bg-light rounded">
+                        <div class="error-message mb-4 p-3 bg-dark rounded">
                             <h6 class="fw-semibold text-primary mb-2">
                                 <i class="bi bi-info-circle me-2"></i>O que pode ter acontecido?
                             </h6>
@@ -200,7 +200,7 @@ $keywords = __('Page Not Found');
     </section>
 
     <!-- Help Section -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-dark">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">

@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark bg-white shadow-sm">
     <div class="container">
         <a class="navbar-brand fw-bold text-primary" href="/">
             <i class="bi bi-book-half me-2"></i>English Tips

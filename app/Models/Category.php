@@ -8,12 +8,12 @@ use DateTime;
 /**
  * @package App\Models
  */
-class Post extends BaseModel
+class Category extends BaseModel
 {
     /**
      * @var string
      */
-    private static string $table = 'posts';
+    private static string $table = 'categories';
 
     /**
      * @return array
@@ -30,7 +30,7 @@ class Post extends BaseModel
 
     public function keysetPagination(int $lastPage, int $perPage)
     {
-        return parent::queryRaw('SELECT p.*, c.name as category, c.slug as category_slug FROM ' . self::$table . ' as p JOIN categories c ON p.category_id = c.id WHERE p.id <= ' . $lastPage . ' AND p.status = "published" AND p.content IS NOT NULL ORDER BY id DESC LIMIT ' . $perPage);
+        return parent::queryRaw('SELECT * FROM ' . self::$table . ' WHERE id <= ' . $lastPage . ' AND status = "published" AND content IS NOT NULL ORDER BY id DESC LIMIT ' . $perPage);
     }
 
     public function getTotal()
@@ -64,7 +64,7 @@ class Post extends BaseModel
      */
     public static function byId(int $id): mixed
     {
-        $result = parent::queryRaw('SELECT p.*, c.name as category, c.slug as category_slug FROM ' . self::$table . '  as p JOIN categories c ON p.category_id = c.id WHERE p.id = ? AND p.deleted_at IS NULL', [$id]);
+        $result = parent::queryRaw('SELECT * FROM ' . self::$table . ' WHERE id = ? AND deleted_at IS NULL', [$id]);
 
         return current($result);
     }
@@ -170,10 +170,10 @@ class Post extends BaseModel
     {
         $except = '';
         if (!empty($exceptIds)) {
-            $except = ' AND p.id NOT IN (' . implode(',', $exceptIds) . ')';
+            $except = ' AND id NOT IN (' . implode(',', $exceptIds) . ')';
         }
 
-        $query = 'SELECT p.*, c.name as category, c.slug as category_slug FROM ' . self::$table . ' as p JOIN categories c ON p.category_id = c.id WHERE p.published_at IS NOT NULL AND p.status = "published" AND p.category_id = ?' . $except . ' ORDER BY RAND() LIMIT ' . $limit;
+        $query = 'SELECT * FROM ' . self::$table . ' WHERE published_at IS NOT NULL AND status = "published" AND category_id = ?' . $except . ' ORDER BY RAND() LIMIT ' . $limit;
         $params = [$category];
 
         return parent::queryRaw($query, $params);

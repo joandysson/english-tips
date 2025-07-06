@@ -27,7 +27,7 @@ function initNavbar() {
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             if (navbarCollapse.classList.contains('show')) {
-                navbarToggler.click();
+                // navbarToggler.click();
             }
         });
     });

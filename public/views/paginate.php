@@ -13,16 +13,16 @@
     </a>
 
     <?php
-        for ($i = $data['current_page'] -1; $data['pages'] >= $i; $i++) {
-            if($i === 0) {
-                continue;
-            }
+    for ($i = $data['current_page'] - 1; $data['pages'] >= $i; $i++) {
+        if ($i === 0) {
+            continue;
+        }
 
-            $startIndexPaginate = $data['current_page'] + 3;
+        $startIndexPaginate = $data['current_page'] + 3;
 
-            if($i > $startIndexPaginate) {
-                break;
-            }
+        if ($i > $startIndexPaginate) {
+            break;
+        }
     ?>
         <a href="/blog?page=<?php echo $i ?>" class="pagination-btn <?php echo $data['current_page'] === $i ? 'active' : null ?> "><?php echo $i ?> </a>
     <?php } ?>
