@@ -24,7 +24,7 @@ class NotificationRepository
             'channel' => self::CHANNEL,
             'data' => [
                 'sender' => 'English Tips',
-                'from' => 'noreplay@toolz.at',
+                'from' => $email,
                 'to' => 'contact@toolz.at',
                 'subject' => $user,
                 'message' => $message
@@ -33,7 +33,7 @@ class NotificationRepository
 
         $request = new Request('POST', getenv('API_NOTIFICATION') . '/api/v1/notify', [], json_encode($body));
         $res = $client->sendAsync($request)->wait();
-        return dd($res->getBody()->getContents());
+        return $res->getBody()->getContents();
     }
 
 }

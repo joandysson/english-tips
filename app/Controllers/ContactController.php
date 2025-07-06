@@ -39,7 +39,7 @@ class ContactController
             $request['email'],
             $request['name'],
             "email: {$request['email']} <br> comment: {$request['comment']}"
-    );
+        );
 
         $_SESSION['contact_success'] = true;
         Router::redirect('/thank-you-contact');
