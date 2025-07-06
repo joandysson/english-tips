@@ -9,7 +9,7 @@ $keywords = __('');
 
 <?php $content = section(function () { ?>
     <!-- Header -->
-    <section class="page-header py-5 mt-5 bg-light">
+    <section class="page-header py-5 bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
@@ -27,24 +27,18 @@ $keywords = __('');
                 <div class="col-lg-8">
                     <div class="contact-form">
                         <h3 class="fw-bold mb-4">Envie sua Mensagem</h3>
-                        <form id="contactForm">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <label for="firstName" class="form-label fw-medium">Nome *</label>
-                                    <input type="text" class="form-control form-control-lg" id="firstName" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="lastName" class="form-label fw-medium">Sobrenome *</label>
-                                    <input type="text" class="form-control form-control-lg" id="lastName" required>
-                                </div>
+                        <form id="contactForm" method="post" action="/contact">
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label fw-medium">Nome *</label>
+                                <input type="text" class="form-control form-control-lg" id="firstName" name="name" value="" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-medium">E-mail *</label>
-                                <input type="email" class="form-control form-control-lg" id="email" required>
+                                <input type="email" class="form-control form-control-lg" id="email" name="email" value="" required>
                             </div>
                             <div class="mb-3">
                                 <label for="subject" class="form-label fw-medium">Assunto *</label>
-                                <select class="form-select form-select-lg" id="subject" required>
+                                <select class="form-select form-select-lg" id="subject" name="category" required>
                                     <option value="">Selecione um assunto</option>
                                     <option value="duvida">Dúvida sobre conteúdo</option>
                                     <option value="sugestao">Sugestão de artigo</option>
@@ -56,7 +50,7 @@ $keywords = __('');
                             </div>
                             <div class="mb-4">
                                 <label for="message" class="form-label fw-medium">Mensagem *</label>
-                                <textarea class="form-control form-control-lg" id="message" rows="6"
+                                <textarea class="form-control form-control-lg" id="message" rows="6" name="comment"
                                     placeholder="Conte-nos como podemos ajudar..." required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg px-4 rounded-pill">
@@ -126,7 +120,7 @@ $keywords = __('');
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-dark">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="display-5 fw-bold mb-3">Perguntas Frequentes</h2>

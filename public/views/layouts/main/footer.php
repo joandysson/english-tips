@@ -21,26 +21,26 @@
                 <h6 class="fw-semibold mb-3">Navegação</h6>
                 <ul class="list-unstyled">
                     <li><a href="/" class="text-light text-decoration-none">Home</a></li>
-                    <li><a href="blog" class="text-light text-decoration-none">Blog</a></li>
-                    <li><a href="about" class="text-light text-decoration-none">Sobre</a></li>
-                    <li><a href="contact" class="text-light text-decoration-none">Contato</a></li>
+                    <li><a href="/blog" class="text-light text-decoration-none">Blog</a></li>
+                    <li><a href="/about" class="text-light text-decoration-none">Sobre</a></li>
+                    <li><a href="/contact" class="text-light text-decoration-none">Contato</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h6 class="fw-semibold mb-3">Categorias</h6>
                 <ul class="list-unstyled">
-                    <li><a href="blog?category=gramatica" class="text-light text-decoration-none">Gramática</a></li>
-                    <li><a href="blog?category=vocabulario" class="text-light text-decoration-none">Vocabulário</a></li>
-                    <li><a href="blog?category=viagem" class="text-light text-decoration-none">Inglês para Viagem</a></li>
-                    <li><a href="blog?category=trabalho" class="text-light text-decoration-none">Inglês para Trabalho</a></li>
+                    <li><a href="/blog?category=gramatica" class="text-light text-decoration-none">Gramática</a></li>
+                    <li><a href="/blog?category=vocabulario" class="text-light text-decoration-none">Vocabulário</a></li>
+                    <li><a href="/blog?category=viagem" class="text-light text-decoration-none">Inglês para Viagem</a></li>
+                    <li><a href="/blog?category=trabalho" class="text-light text-decoration-none">Inglês para Trabalho</a></li>
                 </ul>
             </div>
             <div class="col-lg-3">
                 <h6 class="fw-semibold mb-3">Legal</h6>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light text-decoration-none">Política de Privacidade</a></li>
-                    <li><a href="#" class="text-light text-decoration-none">Termos de Uso</a></li>
-                    <li><a href="newsletter" class="text-light text-decoration-none">Newsletter</a></li>
+                    <li><a href="/privacy-policy" class="text-light text-decoration-none">Política de Privacidade</a></li>
+                    <li><a href="/terms-of-use" class="text-light text-decoration-none">Termos de Uso</a></li>
+                    <li><a href="/newsletter" class="text-light text-decoration-none">Newsletter</a></li>
                 </ul>
             </div>
         </div>

@@ -9,11 +9,11 @@ $keywords = __('');
 
 <?php $content = section(function () { ?>
     <!-- Header -->
-    <section class="page-header py-5 mt-5 bg-light">
+    <section class="page-header py-5 bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="display-4 fw-bold text-dark mb-3">Termos de Uso</h1>
+                    <h1 class="display-4 fw-bold mb-3">Termos de Uso</h1>
                     <p class="lead text-white-50">Condições gerais para uso do site e serviços do English Tips</p>
                     <div class="mt-3">
                         <small class="text-white-50">
@@ -32,7 +32,7 @@ $keywords = __('');
                 <div class="col-lg-8 mx-auto">
                     <div class="terms-content">
                         <!-- Introduction -->
-                        <div class="section-intro mb-5 p-4 bg-light rounded">
+                        <div class="section-intro mb-5 p-4 bg-dark rounded">
                             <h5 class="fw-bold text-primary mb-3">
                                 <i class="bi bi-file-text me-2"></i>Bem-vindo ao English Tips
                             </h5>
@@ -45,7 +45,7 @@ $keywords = __('');
 
                         <!-- 1. Aceitação dos Termos -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">1. Aceitação dos Termos</h2>
+                            <h2 class="h3 fw-bold mb-4">1. Aceitação dos Termos</h2>
 
                             <p>
                                 Ao acessar e usar o site English Tips (www.englishtips.com.br), você aceita
@@ -66,7 +66,7 @@ $keywords = __('');
 
                         <!-- 2. Descrição do Serviço -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">2. Descrição do Serviço</h2>
+                            <h2 class="h3 fw-bold mb-4">2. Descrição do Serviço</h2>
 
                             <p>
                                 O English Tips é uma plataforma educacional gratuita que oferece:
@@ -136,7 +136,7 @@ $keywords = __('');
 
                         <!-- 3. Uso Aceitável -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">3. Uso Aceitável</h2>
+                            <h2 class="h3 fw-bold mb-4">3. Uso Aceitável</h2>
 
                             <h4 class="h5 fw-semibold text-success mb-3">
                                 <i class="bi bi-check-circle me-2"></i>Você PODE:
@@ -179,9 +179,9 @@ $keywords = __('');
 
                         <!-- 4. Propriedade Intelectual -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">4. Propriedade Intelectual</h2>
+                            <h2 class="h3 fw-bold mb-4">4. Propriedade Intelectual</h2>
 
-                            <div class="ip-info p-4 bg-light rounded mb-4">
+                            <div class="ip-info p-4 bg-dark rounded mb-4">
                                 <h5 class="fw-semibold mb-3">Direitos Autorais</h5>
                                 <p class="mb-0">
                                     Todo o conteúdo do English Tips, incluindo textos, imagens, logos,
@@ -223,7 +223,7 @@ $keywords = __('');
 
                         <!-- 5. Conteúdo do Usuário -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">5. Conteúdo do Usuário</h2>
+                            <h2 class="h3 fw-bold mb-4">5. Conteúdo do Usuário</h2>
 
                             <p>
                                 Quando você envia conteúdo através de nossos formulários (contato, comentários, etc.),
@@ -251,7 +251,7 @@ $keywords = __('');
 
                         <!-- 6. Privacidade e Dados -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">6. Privacidade e Proteção de Dados</h2>
+                            <h2 class="h3 fw-bold mb-4">6. Privacidade e Proteção de Dados</h2>
 
                             <p>
                                 Sua privacidade é importante para nós. O tratamento de seus dados pessoais
@@ -286,7 +286,7 @@ $keywords = __('');
 
                         <!-- 7. Isenção de Responsabilidade -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">7. Isenção de Responsabilidade</h2>
+                            <h2 class="h3 fw-bold mb-4">7. Isenção de Responsabilidade</h2>
 
                             <div class="disclaimer-box p-4 border rounded mb-4">
                                 <h5 class="fw-semibold text-warning mb-3">
@@ -309,7 +309,7 @@ $keywords = __('');
                                 <li><strong>Decisões:</strong> Você é responsável por suas decisões baseadas em nosso conteúdo</li>
                             </ul>
 
-                            <div class="liability-limit p-3 bg-light rounded">
+                            <div class="liability-limit p-3 bg-dark rounded">
                                 <h6 class="fw-semibold mb-2">Limitação de Responsabilidade</h6>
                                 <p class="small mb-0">
                                     Em nenhuma circunstância o English Tips será responsável por danos diretos,
@@ -321,7 +321,7 @@ $keywords = __('');
 
                         <!-- 8. Disponibilidade do Serviço -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">8. Disponibilidade do Serviço</h2>
+                            <h2 class="h3 fw-bold mb-4">8. Disponibilidade do Serviço</h2>
 
                             <p>
                                 Embora nos esforcemos para manter o site disponível 24/7, não podemos
@@ -368,14 +368,14 @@ $keywords = __('');
 
                         <!-- 9. Modificações dos Termos -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">9. Modificações dos Termos</h2>
+                            <h2 class="h3 fw-bold mb-4">9. Modificações dos Termos</h2>
 
                             <p>
                                 Reservamo-nos o direito de modificar estes Termos de Uso a qualquer momento.
                                 As alterações entrarão em vigor imediatamente após a publicação no site.
                             </p>
 
-                            <div class="modification-process p-4 bg-light rounded">
+                            <div class="modification-process p-4 bg-dark rounded">
                                 <h5 class="fw-semibold mb-3">Como você será notificado:</h5>
                                 <div class="row g-3">
                                     <div class="col-md-6">
@@ -405,7 +405,7 @@ $keywords = __('');
 
                         <!-- 10. Rescisão -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">10. Rescisão</h2>
+                            <h2 class="h3 fw-bold mb-4">10. Rescisão</h2>
 
                             <h4 class="h5 fw-semibold mb-3">Rescisão pelo Usuário:</h4>
                             <p>
@@ -438,9 +438,9 @@ $keywords = __('');
 
                         <!-- 11. Lei Aplicável -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">11. Lei Aplicável e Jurisdição</h2>
+                            <h2 class="h3 fw-bold mb-4">11. Lei Aplicável e Jurisdição</h2>
 
-                            <div class="jurisdiction-info p-4 bg-light rounded">
+                            <div class="jurisdiction-info p-4 bg-dark rounded">
                                 <h5 class="fw-semibold mb-3">Legislação Brasileira</h5>
                                 <p class="mb-3">
                                     Estes Termos de Uso são regidos pelas leis da República Federativa do Brasil,
@@ -463,7 +463,7 @@ $keywords = __('');
 
                         <!-- 12. Disposições Gerais -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">12. Disposições Gerais</h2>
+                            <h2 class="h3 fw-bold mb-4">12. Disposições Gerais</h2>
 
                             <div class="row g-4">
                                 <div class="col-md-6">
@@ -515,7 +515,7 @@ $keywords = __('');
 
                         <!-- Contact Information -->
                         <section class="mb-5">
-                            <h2 class="h3 fw-bold text-dark mb-4">13. Contato</h2>
+                            <h2 class="h3 fw-bold mb-4">13. Contato</h2>
 
                             <div class="contact-legal p-4 bg-primary text-white rounded">
                                 <h5 class="fw-bold mb-3">
@@ -539,7 +539,7 @@ $keywords = __('');
                         </section>
 
                         <!-- Footer Info -->
-                        <div class="terms-footer text-center p-4 bg-light rounded">
+                        <div class="terms-footer text-center p-4 bg-dark rounded">
                             <p class="mb-2"><strong>English Tips - Termos de Uso</strong></p>
                             <p class="small text-white-50 mb-2">
                                 Estes termos estão em conformidade com a legislação brasileira aplicável,

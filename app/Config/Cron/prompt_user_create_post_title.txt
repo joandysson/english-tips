@@ -1,24 +1,36 @@
-Generate 30 unique and creative blog post ideas related to technology, including a wide range of interesting, relevant, and emerging tech topics.
+Generate 40 unique and creative blog post ideas related to learning English, targeting students from beginner to advanced levels.
+The ideas should include a wide range of helpful and engaging topics for people learning English for everyday life, travel, study, or work.
 
-Distribute the 30 ideas equally across the following categories: "Tools", "Web Development", "AI", and "Others" (i.e., 7 or 8 ideas per category). Categories must be balanced.
+The blog posts must be distributed evenly and sequentially across the 8 predefined categories listed below. After reaching category 8, the cycle should repeat starting from category 1, and so on.
+
+Categories and their numeric IDs:
+1. Gramática
+2. Vocabulário
+3. Inglês para Viagem
+4. Inglês para Trabalho
+5. Dicas de Estudo
+6. Curiosidades
+7. Inglês Avançado
+8. Exercícios
 
 Each blog post idea must include:
-- A compelling and original **title** in Portuguese
-- A short **description** in Portuguese (max. 200 characters)
-- The appropriate **category**, written exactly as "Tools", "Web Development", "AI", or "Others"
 
-You may include topics like futuristic tech, AI, programming, developer tools, new frameworks, digital privacy, tech ethics, quantum computing, and other tech-adjacent ideas.
+A compelling and original title in Portuguese
+A short and clear description in Portuguese (max 200 characters)
+The corresponding category ID as a number from 1 to 8, under the key "category"
 
-Do not repeat ideas or copy existing content from the web. Be creative, insightful, and helpful.
+Use the category IDs in order (1 to 8), then repeat the cycle.
+Example: Post 1 → category 1, Post 2 → category 2, ..., Post 8 → category 8, Post 9 → category 1, etc.
 
-Return only a JSON array with this format:
+All ideas must be creative, helpful, practical, and educational. Avoid repetition or generic titles. Do not copy from existing websites or articles.
+
+Return the output as a JSON array, exactly like this:
+
 [
   {
-    "title": "Post title here",
-    "description": "Short description in Portuguese, max. 200 characters",
-    "category": "One of the four categories above"
+    "title": "Título do post aqui",
+    "description": "Descrição breve do conteúdo, com até 200 caracteres",
+    "category_id": 1
   },
   ...
 ]
-
-The output must contain exactly 30 objects.

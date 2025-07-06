@@ -20,7 +20,7 @@ class CreatePost implements CronInterface
         $openai = OpenAI::client(getenv('OPENAI_API_KEY'));
 
         $response = $openai->chat()->create([
-            'model' => 'gpt-3.5-turbo',
+            'model' => 'gpt-4o',
             'messages' => [
                 [
                     'role' => 'system',
@@ -28,7 +28,8 @@ class CreatePost implements CronInterface
                 ],
                 [
                     'role' => 'user',
-                    'content' => "Gere um artigo em HTML com o seguinte título e descrição:\n\nTítulo: {$data['title']} \n Resumo: {$data['excerpt']}."],
+                    'content' => "Create a aticle with the {$data['title']} and use this description as basis Description: {$data['excerpt']}. the title and description are not part of the article, only use sub titles. so do not start with the title or description."
+                ]
             ],
             'temperature' => 0.8,
         ]);

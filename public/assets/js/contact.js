@@ -109,56 +109,7 @@ function handleContactSubmission(form) {
         return;
     }
 
-    // Get form data
-    const formData = new FormData(form);
-    const contactData = {
-        firstName: formData.get('firstName'),
-        lastName: formData.get('lastName'),
-        email: formData.get('email'),
-        subject: formData.get('subject'),
-        message: formData.get('message')
-    };
-
-    // Show loading state
-    const submitBtn = form.querySelector('button[type="submit"]');
-    const originalText = submitBtn.innerHTML;
-    submitBtn.innerHTML = '<i class="bi bi-hourglass-split me-2"></i>Enviando...';
-    submitBtn.disabled = true;
-
-    // Simulate API call (replace with actual implementation)
-    setTimeout(() => {
-        // Reset button
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-
-        // Show success message
-        showNotification('Mensagem enviada com sucesso! Responderemos em breve.', 'success');
-
-        // Reset form
-        form.reset();
-
-        // Remove any validation classes
-        const validatedFields = form.querySelectorAll('.is-invalid, .is-valid');
-        validatedFields.forEach(field => {
-            field.classList.remove('is-invalid', 'is-valid');
-        });
-
-        // Remove feedback messages
-        const feedbacks = form.querySelectorAll('.invalid-feedback, .valid-feedback');
-        feedbacks.forEach(feedback => feedback.remove());
-
-        // Track form submission (replace with actual analytics)
-        if (typeof gtag !== 'undefined') {
-            gtag('event', 'contact_form_submit', {
-                'event_category': 'engagement',
-                'event_label': contactData.subject
-            });
-        }
-
-        // Scroll to top of form
-        form.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-    }, 2000);
+    form.submit();
 }
 
 // Email validation function
