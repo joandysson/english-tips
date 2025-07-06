@@ -43,4 +43,7 @@
 <meta property="twitter:description" content="<?php echo $description ?>">
 <meta property="twitter:image" content="<?php echo asset('images/jpg/logo-toolz.jpg') ?>">
 
-<!-- Css -->
+<!-- Adsense -->
+<meta name="google-adsense-account" content="ca-pub-4372050191101810">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4372050191101810"
+     crossorigin="anonymous"></script>
