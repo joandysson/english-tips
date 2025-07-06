@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = ' Inscreva-se na Newsletter';
+$description = 'Receba no seu e-mail dicas rápidas, vocabulário útil e atalhos para dominar o inglês no dia a dia. É gratuito!';
+$keywords = 'newsletter inglês, dicas por e-mail, aprender inglês, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>

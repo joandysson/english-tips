@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Termos de Uso';
+$description = 'Leia os termos que regulam o uso do nosso site, conteúdos e ferramentas. Acesse com segurança e transparência.';
+$keywords = 'termos de uso, regras do site, condições, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>

@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Obrigado por se Inscrever!';
+$description = 'Sua inscrição foi realizada com sucesso! Em breve, você receberá dicas incríveis de inglês no seu e-mail.';
+$keywords = 'obrigado, inscrição confirmada, newsletter, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>

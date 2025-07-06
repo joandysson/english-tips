@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Home';
+$description = 'Descubra como aprender inglês com dicas simples, conteúdos claros e ferramentas gratuitas. Tudo feito para brasileiros.';
+$keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês gratuito, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>

@@ -1,7 +1,7 @@
 <?php
-$title = '';
-$description = '';
-$keywords = '';
+$title = $data['post']['title'];
+$description = $data['post']['excerpt'];
+$keywords = 'aprenda inglês, passado, presente, futuro, dicas de ingles, inglês para viagens, ingles para o dia a dia';
 ?>
 
 <?php $headExtra = section(function () { ?>
