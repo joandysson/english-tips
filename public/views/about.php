@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Sobre';
+$description = 'Conheça o English Tips, nosso propósito e como ajudamos milhares de brasileiros a aprender inglês com conteúdos e ferramentas práticas e gratuitas.';
+$keywords = 'sobre nós, English Tips, aprender inglês, missão, ferramentas de inglês';
 ?>
 
 <?php $headExtra = section(function () { ?>

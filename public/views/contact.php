@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Fale Conosco';
+$description = 'Quer tirar dúvidas, dar sugestões ou relatar algo? Fale com a equipe do English Tips. Adoramos ouvir você!';
+$keywords = 'contato, fale conosco, suporte, ajuda, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>

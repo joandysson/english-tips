@@ -1,7 +1,7 @@
 <?php
-$title = __('Page Not Found');
-$description = __('Opss! page not found!');
-$keywords = __('Page Not Found');
+$title = 'Pagina não encontrada';
+$description = 'Essa página não existe ou foi removida. Explore o English Tips e encontre dicas valiosas para melhorar seu inglês.';
+$keywords = 'Pagina não encontrada';
 ?>
 
 <?php $headExtra = section(function () { ?>

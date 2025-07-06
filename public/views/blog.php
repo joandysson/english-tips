@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Blog';
+$description = 'Leia artigos com explicações claras de gramática, vocabulário, expressões e dicas do dia a dia para aprender inglês com confiança.';
+$keywords = 'blog inglês, dicas de inglês, aprender inglês, vocabulário, gramática';
 ?>
 
 <?php $headExtra = section(function () { ?>

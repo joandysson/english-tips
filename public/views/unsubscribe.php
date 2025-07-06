@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Você se descadastrou da Newsletter';
+$description = 'Sentiremos sua falta! Se mudou de ideia, temos outras formas de continuar te ajudando a aprender inglês.';
+$keywords = 'cancelar inscrição, sair da lista, newsletter, descadastro, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>
@@ -216,7 +216,7 @@ $keywords = __('');
                                 </p>
                                 <p class="text-white mb-2">
                                     <i class="bi bi-calendar-x me-2"></i>
-                                <strong>Data:</strong> <span id="unsubscribeDate"> <?php echo intlFormatDate(date('Y-m-d H:i:s')); ?></span>
+                                    <strong>Data:</strong> <span id="unsubscribeDate"> <?php echo intlFormatDate(date('Y-m-d H:i:s')); ?></span>
                                 </p>
                                 <p class="text-white mb-0">
                                     <i class="bi bi-shield-check me-2"></i>

@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Política de Privacidade';
+$description = 'Veja como protegemos seus dados e garantimos sua segurança ao usar nosso site e receber nossos conteúdos.';
+$keywords = 'política de privacidade, proteção de dados, LGPD, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>

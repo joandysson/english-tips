@@ -1,7 +1,7 @@
 <?php
-$title = __('');
-$description = __('');
-$keywords = __('');
+$title = 'Obrigado pelo contato!';
+$description = 'Obrigado pelo contato!';
+$keywords = 'obrigado, English Tips';
 ?>
 
 <?php $headExtra = section(function () { ?>
