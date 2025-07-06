@@ -278,7 +278,7 @@ p {
 
 /* Article Styles */
 .article-header {
-  padding: 6rem 0 2rem;
+  padding: 6rem 0 0;
 }
 
 .article-content {
@@ -288,7 +288,7 @@ p {
 
 .article-content h2,
 .article-content h3 {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   margin-bottom: 1.5rem;
   color: var(--dark-color);
 }
@@ -463,6 +463,49 @@ footer .social-links a:hover {
   text-shadow: 0 4px 8px rgba(108, 99, 255, 0.3);
   line-height: 1;
   animation: bounce 2s infinite;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-2);
+}
+
+input:focus, textarea:focus {
+  background-color: #2d2d2d !important;
+  color: white !important;
+}
+
+input::placeholder, textarea::placeholder {
+  opacity: 0.5;
+  color: var(--border-color) !important;
+}
+
+.pagination-btn,
+.disabled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.pagination-btn:hover {
+  background-color: var(--surface-color);
+}
+
+.pagination-btn.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
 }
 
 @keyframes bounce {
@@ -709,9 +752,9 @@ footer .social-links a:hover {
     color: var(--dark-color);
   }
 
-  .bg-light {
+  /* .bg-dark {
     background-color: #1e1e1e !important;
-  }
+  } */
 
   .bg-white {
     background-color: #2d2d2d !important;
