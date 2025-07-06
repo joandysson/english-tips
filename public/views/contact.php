@@ -242,7 +242,7 @@ $keywords = 'contato, fale conosco, suporte, ajuda, English Tips';
 <?php }); ?>
 
 <?php $scriptsExtra = section(function () { ?>
-    <script src="<?php echo asset('js/contact.js?v=0.1') ?>"></script>
+    <script src="<?php echo asset('js/contact.js?v=0.2') ?>"></script>
 <?php }); ?>
 
 
