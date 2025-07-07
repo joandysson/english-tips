@@ -1,4 +1,4 @@
-<title><?php echo $title . ' - ' . __('Toolz') ?></title>
+<title><?php echo $title . ' - ' . __('English Tips') ?></title>
 
 <meta charset="utf-8">
 
