@@ -14,6 +14,7 @@ CREATE TABLE posts (
   slug VARCHAR(255) UNIQUE NOT NULL,
   category_id INT NOT NULL,
   content TEXT DEFAULT NULL,
+  keywords VARCHAR(255) NOT NULL,
   excerpt TEXT NOT NULL,
   featured_image VARCHAR(255),
   status ENUM('draft', 'published') DEFAULT 'draft',

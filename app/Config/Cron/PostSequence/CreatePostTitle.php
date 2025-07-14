@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Config\Cron;
+namespace App\Config\Cron\PostSequence;
 
+use App\Config\Cron\CronInterface;
 use App\Repository\PostRepository;
 use OpenAI;
 

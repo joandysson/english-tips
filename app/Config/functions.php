@@ -14,9 +14,7 @@ CONST LANG_ES = 'es';
 function view(string $view, array $data = [], bool $isMail = false): mixed
 {
     extract($data);
-    $fileDir = $isMail
-        ? 'public' . DIRECTORY_SEPARATOR . 'template' . DIRECTORY_SEPARATOR . 'email' . DIRECTORY_SEPARATOR
-        : 'public' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR;
+    $fileDir = 'public' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR;
 
     $filePath = $fileDir . $view . '.php';
 
@@ -27,11 +25,24 @@ function view(string $view, array $data = [], bool $isMail = false): mixed
     ob_start();
     include $filePath;
 
-    if ($isMail) {
-        return ob_get_clean();
+    exit(ob_get_clean());
+}
+
+function emailView(string $view, array $data = []): mixed
+{
+    extract($data);
+    $fileDir = 'public' . DIRECTORY_SEPARATOR . 'email' . DIRECTORY_SEPARATOR;
+
+    $filePath = $fileDir . $view . '.php';
+
+    if (!is_file($filePath)) {
+        exit('view not found');
     }
 
-    exit(ob_get_clean());
+    ob_start();
+    include $filePath;
+
+    return ob_get_clean();
 }
 
 /**

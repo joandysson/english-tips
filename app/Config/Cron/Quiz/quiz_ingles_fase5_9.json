@@ -1,0 +1,4454 @@
+[
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    },
+    {
+        "txt": "Which tense is used to describe completed actions in the past?",
+        "options": [
+            "Past simple",
+            "Present continuous",
+            "Future perfect",
+            "Present perfect"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "The *past simple* is used to describe completed actions in the past\\."
+    },
+    {
+        "txt": "What is the correct word for a person who manages a team?",
+        "options": [
+            "Employee",
+            "Manager",
+            "Intern",
+            "Assistant"
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "*Manager* is the correct term for someone who manages a team\\."
+    },
+    {
+        "txt": "Choose the sentence that uses correct punctuation.",
+        "options": [
+            "I am happy, today.",
+            "I'm happy today.",
+            "I happy am today.",
+            "Happy today I am."
+        ],
+        "type": "quiz",
+        "correct_option_id": 1,
+        "explanation": "The sentence *I'm happy today\\.* uses correct punctuation\\."
+    },
+    {
+        "txt": "What is the correct pronunciation of the word *though*?",
+        "options": [
+            "thow",
+            "tho",
+            "thuff",
+            "though"
+        ],
+        "type": "quiz",
+        "correct_option_id": 3,
+        "explanation": "The word *though* is pronounced like *though*, not *thow* or *thuff*\\."
+    },
+    {
+        "txt": "How do you spell the word that means 'necessary'?",
+        "options": [
+            "necesary",
+            "necessery",
+            "necessary",
+            "nessecary"
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct spelling is *necessary* with two *s* and one *c*\\."
+    },
+    {
+        "txt": "Which of these words is often confused with *affect*?",
+        "options": [
+            "effect",
+            "impact",
+            "result",
+            "influence"
+        ],
+        "type": "quiz",
+        "correct_option_id": 0,
+        "explanation": "*Effect* is a noun often confused with the verb *affect*\\."
+    },
+    {
+        "txt": "Which sentence is grammatically correct?",
+        "options": [
+            "He didn’t went there.",
+            "He doesn't goes there.",
+            "He didn't go there.",
+            "He not went there."
+        ],
+        "type": "quiz",
+        "correct_option_id": 2,
+        "explanation": "The correct form is *He didn't go there\\.* using the base form after *didn't*\\."
+    }
+]

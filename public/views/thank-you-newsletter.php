@@ -219,7 +219,7 @@ $keywords = 'obrigado, inscrição confirmada, newsletter, English Tips';
                         </div>
 
                         <div class="hero-actions">
-                            <a href="blog" class="btn btn-warning btn-lg px-4 me-3 rounded-pill">
+                            <a href="/blog" class="btn btn-warning btn-lg px-4 me-3 rounded-pill">
                                 <i class="bi bi-book me-2"></i>Explorar Artigos
                             </a>
                             <a href="/" class="btn btn-outline-light btn-lg px-4 rounded-pill">

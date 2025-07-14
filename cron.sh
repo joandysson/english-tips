@@ -17,6 +17,8 @@ fi
   Jobs
   - CreatePostTitle
   - CreatePost
+  - CreateNewsletter
+  - PostQuiz
 '
 
 echo "Running cron job $1"

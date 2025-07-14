@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\Service;
 
 use App\Repository\NewsletterRepository;
 
@@ -20,13 +20,13 @@ class NewsletterService
 
     public function updateOrCreate(array $data): array
     {
-        $data = $this->newsletterRepository->getByEmail($data['email'], false);
+        $result = $this->newsletterRepository->getByEmail($data['email'], false);
 
-        if (empty($data)) {
+        if (!$result) {
             return $this->newsletterRepository->create($data);
         }
 
-        return $this->newsletterRepository->update($data['id'], [
+        return $this->newsletterRepository->update($result['id'], [
             'name' => $data['name'],
             'email' => $data['email'],
             'deleted_at' => null,

@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Services\PostService;
+use App\Service\PostService;
 
 class HomeController
 {

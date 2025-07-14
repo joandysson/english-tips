@@ -3,9 +3,9 @@
 namespace App\Controllers;
 
 use App\Config\Router\Router;
-use App\Services\ContactService;
-use App\Services\NotificationService;
-use App\Services\PostService;
+use App\Service\ContactService;
+use App\Service\NotificationService;
+use App\Service\PostService;
 
 class ContactController
 {
