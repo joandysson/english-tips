@@ -7,9 +7,9 @@
 if [ "$2" = "PROD" ]; then
   echo "Changing path to Prod";
   echo "---------"
-  echo "New path: /home/u428100319/domains/toolz.at/public_html";
+  echo "New path: /home/u428100319/domains/englishtips.cc/public_html";
   # shellcheck disable=SC2164
-  cd /home/u428100319/domains/toolz.at/public_html;
+  cd /home/u428100319/domains/englishtips.cc/public_html;
   echo "---------"
 fi
 
