@@ -32,14 +32,14 @@
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="<?php echo getenv('APP_URL') . '/' . getPrefixLang() ?>">
-<meta property="og:title" content="<?php echo $title . ' - ' . __('Toolz') ?>">
+<meta property="og:title" content="<?php echo $title . ' - ' . __('English Tips') ?>">
 <meta property="og:description" content="<?php echo $description ?>">
 <meta property="og:image" content="<?php echo asset('images/jpg/logo-toolz.jpg') ?>">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="<?php echo asset('images/icon/ms-icon-144x144.png') ?>">
 <meta property="twitter:url" content="<?php echo getenv('APP_URL') . '/' . getPrefixLang() ?>">
-<meta property="twitter:title" content="<?php echo $title . ' - ' . __('Toolz') ?>">
+<meta property="twitter:title" content="<?php echo $title . ' - ' . __('English Tips') ?>">
 <meta property="twitter:description" content="<?php echo $description ?>">
 <meta property="twitter:image" content="<?php echo asset('images/jpg/logo-toolz.jpg') ?>">
 
