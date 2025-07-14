@@ -22,19 +22,33 @@ jobs:
             echo "DB_HOST=${{vars.DB_HOST}}" >> .env
             echo "DB_PASSWORD=${{secrets.DB_PASSWORD}}" >> .env
             echo "DB_USER=${{vars.DB_USER}}" >> .env
+
             echo "APP_STAGE=${{vars.APP_STAGE}}" >> .env
             echo "APP_DEBUG=${{vars.APP_DEBUG}}" >> .env
+
             echo "RECAPTCHA_URL=${{vars.RECAPTCHA_URL}}" >> .env
             echo "RECAPTCHA_SECRET=${{secrets.RECAPTCHA_SECRET}}" >> .env
-            echo "SENTRY_DNS=${{secrets.SENTRY_DNS}}" >> .env
-            echo "OPENAI_API_KEY=${{secrets.OPENAI_API_KEY}}" >> .env
-            echo "OPENAI_API_KEY=${{vars.API_NOTIFICATION}}" >> .env
 
-      # - name: Deploy .env - Sync file
-      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      #   with:
-      #     local-dir: ./
-      #     server: ${{ vars.FTP_HOST }}
-      #     username: ${{ vars.FTP_USER }}
-      #     password: ${{ secrets.FTP_PASSWORD }}
-      #     server-dir: ${{ vars.FTP_SERVER_DIR }}
+            echo "SENTRY_DNS=${{secrets.SENTRY_DNS}}" >> .env
+
+            echo "AI_PROVIDER=${{vars.AI_PROVIDER}}" >> .env
+            echo "OPENAI_API_KEY=${{secrets.OPENAI_API_KEY}}" >> .env
+            echo "DEEPSEEK_API_KEY=${{secrets.DEEPSEEK_API_KEY}}" >> .env
+
+            echo "API_NOTIFICATION=${{vars.API_NOTIFICATION}}" >> .env
+            echo "EMAIL_NAME=${{vars.EMAIL_NAME}}" >> .env
+            echo "EMAIL_USERNAME=${{vars.EMAIL_USERNAME}}" >> .env
+            echo "EMAIL_PASSWORD=${{secrets.EMAIL_PASSWORD}}" >> .env
+
+            echo "TELEGRAM_BOT_TOKEN=${{secrets.TELEGRAM_BOT_TOKEN}}" >> .env
+            echo "TLEGRAM_GROUP_TOKEN=${{vars.TLEGRAM_GROUP_TOKEN}}" >> .env
+            echo "TLEGRAM_COMMUNITY=${{vars.TLEGRAM_COMMUNITY}}" >> .env
+
+      - name: Deploy .env - Sync file
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          local-dir: ./
+          server: ${{ vars.FTP_HOST }}
+          username: ${{ vars.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ vars.FTP_SERVER_DIR }}
