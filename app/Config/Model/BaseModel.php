@@ -79,7 +79,8 @@ abstract class BaseModel extends Connection
             $stmt->execute($params);
             return parent::$conn->lastInsertId();
         } catch (PDOException $e) {
-            echo $e->getMessage();
+            dd($e->getMessage());
+            // echo ;
             return false;
         }
     }

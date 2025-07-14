@@ -3,8 +3,8 @@
 namespace App\Controllers;
 
 use App\Config\Router\Router;
-use App\Services\NewsletterService;
-use App\Services\PostService;
+use App\Service\NewsletterService;
+use App\Service\PostService;
 
 class NewsletterController
 {

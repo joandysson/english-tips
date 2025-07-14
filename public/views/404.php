@@ -54,7 +54,7 @@ $keywords = 'Pagina não encontrada';
                             <a href="/" class="btn btn-primary btn-lg me-3 mb-3 rounded-pill">
                                 <i class="bi bi-house me-2"></i>Voltar ao Início
                             </a>
-                            <a href="blog" class="btn btn-outline-primary btn-lg mb-3 rounded-pill">
+                            <a href="/blog" class="btn btn-outline-primary btn-lg mb-3 rounded-pill">
                                 <i class="bi bi-journal-text me-2"></i>Ver Artigos
                             </a>
                         </div>

@@ -1,10 +1,14 @@
 <?php
 
-use App\Config\Cron\CreatePost;
-use App\Config\Cron\CreatePostTitle;
 use App\Config\Cron\CronInterface;
+use App\Config\Cron\InsertThemes\InsertThemes;
+use App\Config\Cron\Newsletter\CreateNewsletter;
+use App\Config\Cron\PostContent\CreatePost;
+use App\Config\Cron\PostSequence\CreatePostTitle;
+use App\Config\Cron\Quiz\PostQuiz;
 
 require_once 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+require_once 'app' . DIRECTORY_SEPARATOR . 'Config' . DIRECTORY_SEPARATOR . 'functions.php';
 
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable('.');
 $dotenv->load();
@@ -18,6 +22,9 @@ $task = $argv[1];
 $cron = match ($task) {
     'CreatePost' => new CreatePost(),
     'CreatePostTitle' => new CreatePostTitle(),
+    'CreateNewsletter' => new CreateNewsletter(),
+    'PostQuiz' => new PostQuiz(),
+    'InsertThemes' => new InsertThemes(),
     default => "Task '{$task}' not found."
 };
 

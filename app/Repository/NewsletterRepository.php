@@ -13,6 +13,11 @@ class NewsletterRepository
         $this->newsletter = new Newsletter();
     }
 
+    public function getPaginate(int $lastPage, int $perPage): array|bool
+    {
+        return $this->newsletter->keysetPagination($lastPage, $perPage);
+    }
+
     public function all(): array|bool
     {
         return $this->newsletter->all();

@@ -1,0 +1,22 @@
+User role: iniciante (beginner)
+
+The user is new to learning English and may feel insecure or confused. Keep the message encouraging and simple. Use short sentences, basic vocabulary, and an optimistic tone.
+
+Focus on helping them build confidence. Recommend foundational blog posts, simple exercises, or tips to get started.
+
+Avoid complex grammar or idiomatic expressions.
+
+---
+
+Return the result as a JSON object with the following structure:
+You need to return as a JSON API that returns clean and valid JSON data only. Do not include explanations or formatting.
+
+
+{
+  "title": "[THEME]",
+  "content": "[Enter the full body of the message in Brazilian Portuguese, formatted with <p>, <br>, <strong>, etc. You can customize it according to your needs, as long as they are compatible tags to be sent in the email body. You can customize it with CSS within the tags <html style="css here">]"
+}
+
+OUTPUT:
+write about the theme: [THEME]
+do not return the content inside of a markdown ```json <content> ```, just return the content

@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Services\PostService;
-use App\Services\CategoryService;
+use App\Service\PostService;
+use App\Service\CategoryService;
 
 class PostController
 {

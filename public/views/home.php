@@ -28,7 +28,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                             <a href="newsletter" class="btn btn-warning btn-lg px-4 me-3 rounded-pill">
                                 <i class="bi bi-envelope-heart me-2"></i>Receber Dicas Grátis
                             </a>
-                            <a href="blog" class="btn btn-outline-light btn-lg px-4 rounded-pill">
+                            <a href="/blog" class="btn btn-outline-light btn-lg px-4 rounded-pill">
                                 <i class="bi bi-book me-2"></i>Ver Artigos
                             </a>
                         </div>
@@ -90,7 +90,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Gramática</h5>
                         <p class="text-white-50 mb-3">Domine as regras essenciais da gramática inglesa</p>
-                        <a href="blog?category=gramatica" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=gramatica" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -100,7 +100,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Vocabulário</h5>
                         <p class="text-white-50 mb-3">Amplie seu vocabulário com palavras do dia a dia</p>
-                        <a href="blog?category=vocabulario" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=vocabulario" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -110,7 +110,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Inglês para Viagem</h5>
                         <p class="text-white-50 mb-3">Frases e expressões para suas aventuras</p>
-                        <a href="blog?category=viagem" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=viagem" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -120,7 +120,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Inglês para Trabalho</h5>
                         <p class="text-white-50 mb-3">Profissionalize seu inglês para o mercado</p>
-                        <a href="blog?category=trabalho" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=trabalho" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -130,7 +130,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Dicas de Estudo</h5>
                         <p class="text-white-50 mb-3">Métodos eficazes para acelerar seu aprendizado</p>
-                        <a href="blog?category=estudo" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=estudo" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -140,7 +140,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Curiosidades</h5>
                         <p class="text-white-50 mb-3">Fatos interessantes sobre a língua inglesa</p>
-                        <a href="blog?category=curiosidades" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=curiosidades" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -150,7 +150,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Inglês Avançado</h5>
                         <p class="text-white-50 mb-3">Conteúdo para quem quer fluência total</p>
-                        <a href="blog?category=avancado" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=avancado" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -160,7 +160,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                         </div>
                         <h5 class="fw-semibold mb-3">Exercícios</h5>
                         <p class="text-white-50 mb-3">Pratique com exercícios interativos</p>
-                        <a href="blog?category=exercicios" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
+                        <a href="/blog?category=exercicios" class="btn btn-outline-primary btn-sm rounded-pill">Ver Artigos</a>
                     </div>
                 </div>
             </div>
@@ -227,7 +227,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                 </div> -->
             </div>
             <div class="text-center mt-5">
-                <a href="blog" class="btn btn-primary btn-lg px-4 rounded-pill">
+                <a href="/blog" class="btn btn-primary btn-lg px-4 rounded-pill">
                     <i class="bi bi-arrow-right me-2"></i>Ver Todos os Artigos
                 </a>
             </div>

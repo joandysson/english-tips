@@ -49,3 +49,4 @@ Every article must be fully written in English, except for translations of examp
 - 15+ example sentences
 - 2+ interactive elements (tables/exercises)
 - Return ONLY the HTML content with the the post title as the first line
+- Do not return the content inside of a markdown ```html <content> ```

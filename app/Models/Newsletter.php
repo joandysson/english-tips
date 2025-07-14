@@ -30,7 +30,7 @@ class Newsletter extends BaseModel
 
     public function keysetPagination(int $lastPage, int $perPage)
     {
-        return parent::queryRaw('SELECT * FROM ' . self::$table . ' WHERE id <= ' . $lastPage . ' AND status = "published" AND content IS NOT NULL ORDER BY id DESC LIMIT ' . $perPage);
+        return parent::queryRaw('SELECT * FROM ' . self::$table . ' WHERE id >= ' . $lastPage . ' AND deleted_at IS NULL  ORDER BY id ASC LIMIT ' . $perPage);
     }
 
     public function getTotal()

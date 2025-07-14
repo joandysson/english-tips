@@ -327,7 +327,7 @@ $keywords = 'cancelar inscrição, sair da lista, newsletter, descadastro, Engli
                             Acesse nossos mais de 150 artigos gratuitos sobre inglês,
                             organizados por categoria e nível de dificuldade.
                         </p>
-                        <a href="blog" class="btn btn-outline-primary rounded-pill">
+                        <a href="/blog" class="btn btn-outline-primary rounded-pill">
                             <i class="bi bi-arrow-right me-2"></i>Explorar Artigos
                         </a>
                     </div>

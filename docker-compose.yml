@@ -11,7 +11,7 @@ services:
             - "3306:3306"
         volumes:
             - ./docker/db:/docker-entrypoint-initdb.d
-            - database:/var/lib/mysql'
+            - englishtips_db:/var/lib/mysql'
     app:
         build: .
         restart: always
@@ -39,6 +39,6 @@ services:
         ports:
             - 8080:8080
 volumes:
-    database:
+    englishtips_db:
 networks:
     default:
