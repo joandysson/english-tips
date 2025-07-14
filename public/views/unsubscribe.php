@@ -367,7 +367,7 @@ $keywords = 'cancelar inscrição, sair da lista, newsletter, descadastro, Engli
                             Participe da nossa comunidade online para trocar experiências,
                             tirar dúvidas e praticar inglês com outros estudantes.
                         </p>
-                        <a href="#" class="btn btn-outline-info rounded-pill">
+                        <a href="https://t.me/englishtipscc/1" class="btn btn-outline-info rounded-pill">
                             <i class="bi bi-arrow-right-circle me-2"></i>Entrar na Comunidade
                         </a>
                     </div>

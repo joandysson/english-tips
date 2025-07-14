@@ -266,7 +266,7 @@ $keywords = 'aprender inglês, dicas de inglês, ferramentas de inglês, inglês
                                 <span class="fw-medium">Suporte direto da nossa equipe</span>
                             </div>
                         </div>
-                        <a href="#" class="btn btn-warning btn-lg px-5 rounded-pill fw-semibold">
+                        <a href="https://t.me/englishtipscc/1" class="btn btn-warning btn-lg px-5 rounded-pill fw-semibold">
                             <i class="bi bi-arrow-right-circle me-2"></i>Entrar na Comunidade
                         </a>
                         <div class="mt-3">
