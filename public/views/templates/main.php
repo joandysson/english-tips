@@ -17,8 +17,8 @@
 </head>
 
 <body>
+    <?php include dirname(__DIR__) . '/layouts/scriptTagManager.php' ?>
     <div class="wrapper">
-        <?php include dirname(__DIR__) . '/layouts/scriptTagManager.php' ?>
         <?php include dirname(__DIR__) . '/layouts/main/header.php' ?>
 
         <?php echo $content; ?>
