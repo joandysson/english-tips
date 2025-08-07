@@ -5,7 +5,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TN5D6PNZ');</script>
 <!-- End Google Tag Manager -->
- 
+
 
 <title><?php echo $title . ' - ' . __('English Tips') ?></title>
 
@@ -43,14 +43,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:url" content="<?php echo getenv('APP_URL') . '/' . getPrefixLang() ?>">
 <meta property="og:title" content="<?php echo $title . ' - ' . __('English Tips') ?>">
 <meta property="og:description" content="<?php echo $description ?>">
-<meta property="og:image" content="<?php echo asset('images/jpg/logo-toolz.jpg') ?>">
+<meta property="og:image" content="<?php echo asset('images/icon/ms-icon-310x310.png') ?>">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="<?php echo asset('images/icon/ms-icon-144x144.png') ?>">
 <meta property="twitter:url" content="<?php echo getenv('APP_URL') . '/' . getPrefixLang() ?>">
 <meta property="twitter:title" content="<?php echo $title . ' - ' . __('English Tips') ?>">
 <meta property="twitter:description" content="<?php echo $description ?>">
-<meta property="twitter:image" content="<?php echo asset('images/jpg/logo-toolz.jpg') ?>">
+<meta property="twitter:image" content="<?php echo asset('images/icon/ms-icon-310x310.png') ?>">
 
 <!-- Adsense -->
 <meta name="google-adsense-account" content="ca-pub-4372050191101810">
