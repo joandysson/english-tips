@@ -104,7 +104,7 @@ class CreateNewsletter implements CronInterface
             ]
         ];
 
-        $baseUrl = getenv('NOTIFY_API') ?: getenv('API_NOTIFICATION');
+        $baseUrl = getenv('NOTIFY_API');
         $url = rtrim((string) $baseUrl, '/') . '/api/v1/notify';
         $request = new Request('POST', $url, $headers, json_encode($body));
         $res = $client->sendAsync($request)->wait();
