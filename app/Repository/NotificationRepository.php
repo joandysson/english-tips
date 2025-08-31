@@ -42,8 +42,13 @@ class NotificationRepository
             ],
         ];
 
-        $baseUrl = getenv('NOTIFY_API');
-        $url = rtrim((string) $baseUrl, '/') . '/api/v1/notify';
+        $baseUrl = getenv('NOTIFY_API') ?: '';
+        // Sanitize quotes/spaces and fall back to default if invalid/empty
+        $baseUrl = trim($baseUrl, " \t\n\r\0\x0B'\"");
+        if (empty($baseUrl) || !filter_var($baseUrl, FILTER_VALIDATE_URL)) {
+            $baseUrl = 'https://notification.toolz.at';
+        }
+        $url = rtrim($baseUrl, '/') . '/api/v1/notify';
         $request = new Request('POST', $url, $headers, json_encode($body));
         $res = $this->client->sendAsync($request)->wait();
         return $res->getBody()->getContents();
