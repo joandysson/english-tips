@@ -34,7 +34,7 @@ class ContactService
             'comment' => nl2br($data['comment'])
         ], true);
 
-        (new NotificationRepository())->create($data['email'], $data['name'], $html);
+        (new NotificationRepository())->create($data, $html);
 
         return $created;
     }

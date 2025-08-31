@@ -18,9 +18,13 @@ class NotificationService
     public function create(string $email, string $user, string $message)
     {
         try {
-            return $this->notificationRepository->create($email, $user, $message);
+            $data = [
+                'email' => $email,
+                'name' => $user,
+                // Any other fields can be added by callers as needed
+            ];
+            return $this->notificationRepository->create($data, $message);
         } catch (Throwable) {
         }
     }
 }
-
