@@ -32,28 +32,7 @@ class NotificationRepositoryTest extends TestCase
         $client = new Client(['handler' => $handlerStack]);
         $repo = new NotificationRepository($client);
 
-        $data = [
-            'notifications' => [
-                [
-                    'subject' => 'Contact: English Tips from John Doe',
-                    'recipients' => [
-                        [
-                            'email' => 'test@local',
-                            'name' => 'Admin',
-                        ]
-                    ],
-                    'alt_message' => '',
-                    'message' => 'Hello message',
-                ]
-            ],
-            'config' => [
-                'name' => 'English Tips',
-                'username' => 'user',
-                'password' => 'pass',
-            ]
-        ];
-
-        $result = $repo->create($data);
+        $result = $repo->create('sender@example.com', 'John Doe', 'Hello message');
 
         $this->assertSame('OK', $result);
         $this->assertCount(1, $history);
@@ -66,6 +45,16 @@ class NotificationRepositoryTest extends TestCase
 
         $payload = json_decode((string) $request->getBody(), true);
         $this->assertSame('email', $payload['channel']);
-        $this->assertSame($data, $payload['data']);
+        $this->assertSame('email', $payload['channel']);
+        $notification = $payload['data']['notifications'][0];
+        $this->assertSame('Contact: English Tips from John Doe', $notification['subject']);
+        $this->assertSame('Hello message', $notification['message']);
+        $this->assertSame('test@local', $notification['recipients'][0]['email']);
+        $this->assertSame('Admin', $notification['recipients'][0]['name']);
+
+        $config = $payload['data']['config'];
+        $this->assertSame('English Tips', $config['name']);
+        $this->assertSame('user', $config['username']);
+        $this->assertSame('pass', $config['password']);
     }
 }

@@ -34,31 +34,7 @@ class ContactService
             'comment' => nl2br($data['comment'])
         ], true);
 
-        $recipientEmail = getenv('NOTIFY_RECIPIENT_EMAIL') ?: 'contact@toolz.at';
-        $recipientName = getenv('NOTIFY_RECIPIENT_NAME') ?: 'Admin';
-
-        $payload = [
-            'notifications' => [
-                [
-                    'subject' => sprintf('Contact: English Tips from %s', $data['name']),
-                    'recipients' => [
-                        [
-                            'email' => $recipientEmail,
-                            'name' => $recipientName,
-                        ]
-                    ],
-                    'alt_message' => '',
-                    'message' => $html,
-                ]
-            ],
-            'config' => [
-                'name' => getenv('EMAIL_NAME') ?: 'English Tips',
-                'username' => getenv('EMAIL_USERNAME'),
-                'password' => getenv('EMAIL_PASSWORD')
-            ]
-        ];
-
-        (new NotificationRepository())->create($payload);
+        (new NotificationRepository())->create($data['email'], $data['name'], $html);
 
         return $created;
     }

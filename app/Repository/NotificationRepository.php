@@ -17,15 +17,37 @@ class NotificationRepository
         $this->client = $client ?: new Client();
     }
 
-    public function create(array $data): mixed
+    public function create(string $email, string $user, string $message): mixed
     {
         $headers = [
             'Content-Type' => 'application/json',
         ];
 
+        $recipientEmail = getenv('NOTIFY_RECIPIENT_EMAIL') ?: 'contact@toolz.at';
+        $recipientName = getenv('NOTIFY_RECIPIENT_NAME') ?: 'Admin';
+
         $body = [
             'channel' => self::CHANNEL,
-            'data' => $data,
+            'data' => [
+                'notifications' => [
+                    [
+                        'subject' => sprintf('Contact: English Tips from %s', $user),
+                        'recipients' => [
+                            [
+                                'email' => $recipientEmail,
+                                'name' => $recipientName,
+                            ]
+                        ],
+                        'alt_message' => '',
+                        'message' => $message,
+                    ]
+                ],
+                'config' => [
+                    'name' => getenv('EMAIL_NAME') ?: 'English Tips',
+                    'username' => getenv('EMAIL_USERNAME'),
+                    'password' => getenv('EMAIL_PASSWORD')
+                ]
+            ],
         ];
 
         $baseUrl = getenv('NOTIFY_API');
