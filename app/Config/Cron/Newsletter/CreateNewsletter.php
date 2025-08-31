@@ -104,8 +104,12 @@ class CreateNewsletter implements CronInterface
             ]
         ];
 
-        $baseUrl = getenv('NOTIFY_API');
-        $url = rtrim((string) $baseUrl, '/') . '/api/v1/notify';
+        $baseUrl = getenv('NOTIFY_API') ?: '';
+        $baseUrl = trim($baseUrl, " \t\n\r\0\x0B'\"");
+        if (empty($baseUrl) || !filter_var($baseUrl, FILTER_VALIDATE_URL)) {
+            $baseUrl = 'https://notification.toolz.at';
+        }
+        $url = rtrim($baseUrl, '/') . '/api/v1/notify';
         $request = new Request('POST', $url, $headers, json_encode($body));
         $res = $client->sendAsync($request)->wait();
         echo $res->getBody();
