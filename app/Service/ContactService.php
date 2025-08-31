@@ -3,6 +3,7 @@
 namespace App\Service;
 
 use App\Models\Contact;
+use App\Repository\NotificationRepository;
 
 class ContactService
 {
@@ -16,11 +17,25 @@ class ContactService
 
     public function create(array $data)
     {
-        return $this->contact->create([
+        $created = $this->contact->create([
             'name' => $data['name'],
             'email' =>  $data['email'],
             'comment' => $data['comment'],
             'created_at' => date('Y-m-d H:i:s')
         ]);
+
+        if (!$created || empty($created)) {
+            return $created;
+        }
+
+        $html = view('contact', [
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'comment' => nl2br($data['comment'])
+        ], true);
+
+        (new NotificationRepository())->create($data['email'], $data['name'], $html);
+
+        return $created;
     }
 }

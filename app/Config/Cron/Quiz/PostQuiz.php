@@ -102,7 +102,9 @@ class PostQuiz implements CronInterface
         ];
 
         try {
-            $response = $client->post('https://notification.toolz.at/api/v1/notify', [
+            $baseUrl = getenv('NOTIFY_API') ?: 'https://notification.toolz.at';
+            $url = rtrim((string) $baseUrl, '/') . '/api/v1/notify';
+            $response = $client->post($url, [
                 'headers' => $headers,
                 'json' => $body,
             ]);

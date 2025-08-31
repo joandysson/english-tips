@@ -4,20 +4,19 @@ namespace App\Controllers;
 
 use App\Config\Router\Router;
 use App\Service\ContactService;
-use App\Service\NotificationService;
 use App\Service\PostService;
 
 class ContactController
 {
     private ContactService $contactService;
     private PostService $postService;
-    private NotificationService $notificationService;
+    
 
     public function __construct()
     {
         $this->contactService = new ContactService();
         $this->postService = new PostService();
-        $this->notificationService = new NotificationService();
+        
         session_start();
     }
 
@@ -34,12 +33,12 @@ class ContactController
         }
 
         $request['comment'] = $request['category'] . ' - ' . $request['comment'];
-        $this->contactService->create($request);
-        $this->notificationService->create(
-            $request['email'],
-            $request['name'],
-            "email: {$request['email']} <br> comment: {$request['comment']}"
-        );
+        $created = $this->contactService->create($request);
+
+        if (!$created || empty($created)) {
+            Router::redirectBack('/contact?error=1');
+            exit;
+        }
 
         $_SESSION['contact_success'] = true;
         Router::redirect('/thank-you-contact');

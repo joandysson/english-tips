@@ -2,7 +2,6 @@
 
 namespace App\Repository;
 
-use App\Models\Newsletter;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 
@@ -11,28 +10,42 @@ class NotificationRepository
 
     const CHANNEL = 'email';
 
-    public function __construct()
-    {
+    private Client $client;
 
+    public function __construct(?Client $client = null)
+    {
+        $this->client = $client ?: new Client();
     }
 
-    public function create(string $email, string $user, string $message): mixed
+    public function create(array $data, string $message): mixed
     {
-        $client = new Client();
+        $headers = [
+            'Content-Type' => 'application/json',
+        ];
 
         $body = [
             'channel' => self::CHANNEL,
             'data' => [
-                'sender' => 'English Tips',
-                'from' => $email,
-                'to' => 'contact@toolz.at',
-                'subject' => $user,
-                'message' => $message
-            ]
+                'notifications' => [
+                    [
+                        'subject' => sprintf('Contact: English Tips from %s', $data['name']),
+                        'recipients' => [
+                            [
+                                'email' => getenv('NOTIFY_RECIPIENT_EMAIL'),
+                                'name' => getenv('NOTIFY_RECIPIENT_NAME'),
+                            ]
+                        ],
+                        'alt_message' => '',
+                        'message' => $message,
+                    ]
+                ]
+            ],
         ];
 
-        $request = new Request('POST', getenv('API_NOTIFICATION') . '/api/v1/notify', [], json_encode($body));
-        $res = $client->sendAsync($request)->wait();
+        $baseUrl = getenv('NOTIFY_API');
+        $url = rtrim((string) $baseUrl, '/') . '/api/v1/notify';
+        $request = new Request('POST', $url, $headers, json_encode($body));
+        $res = $this->client->sendAsync($request)->wait();
         return $res->getBody()->getContents();
     }
 

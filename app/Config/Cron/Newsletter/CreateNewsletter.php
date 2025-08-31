@@ -97,14 +97,16 @@ class CreateNewsletter implements CronInterface
                     ]
                 ],
                 'config' => [
-                    'name' => 'English Tips',
+                    'name' => getenv('EMAIL_NAME') ?: 'English Tips',
                     'username' => getenv('EMAIL_USERNAME'),
                     'password' => getenv('EMAIL_PASSWORD')
                 ]
             ]
         ];
 
-        $request = new Request('POST', getenv('API_NOTIFICATION') . '/api/v1/notify', $headers, json_encode($body));
+        $baseUrl = getenv('NOTIFY_API');
+        $url = rtrim((string) $baseUrl, '/') . '/api/v1/notify';
+        $request = new Request('POST', $url, $headers, json_encode($body));
         $res = $client->sendAsync($request)->wait();
         echo $res->getBody();
     }
