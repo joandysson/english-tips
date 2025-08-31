@@ -36,6 +36,8 @@ jobs:
             echo "DEEPSEEK_API_KEY=${{secrets.DEEPSEEK_API_KEY}}" >> .env
 
             echo "API_NOTIFICATION=${{vars.NOTIFY_API}}" >> .env
+            echo "NOTIFY_RECIPIENT_EMAIL=${{vars.NOTIFY_RECIPIENT_EMAIL}}" >> .env
+            echo "NOTIFY_RECIPIENT_NAME=${{vars.NOTIFY_RECIPIENT_NAME}}" >> .env
             echo "EMAIL_NAME=${{vars.EMAIL_NAME}}" >> .env
             echo "EMAIL_USERNAME=${{vars.EMAIL_USERNAME}}" >> .env
             echo "EMAIL_PASSWORD=${{secrets.EMAIL_PASSWORD}}" >> .env
