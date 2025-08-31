@@ -32,7 +32,12 @@ class NotificationRepositoryTest extends TestCase
         $client = new Client(['handler' => $handlerStack]);
         $repo = new NotificationRepository($client);
 
-        $result = $repo->create('sender@example.com', 'John Doe', 'Hello message');
+        $data = [
+            'email' => 'sender@example.com',
+            'name' => 'John Doe',
+        ];
+
+        $result = $repo->create($data, 'Hello message');
 
         $this->assertSame('OK', $result);
         $this->assertCount(1, $history);
