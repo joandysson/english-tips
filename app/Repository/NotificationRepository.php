@@ -41,11 +41,6 @@ class NotificationRepository
                         'alt_message' => '',
                         'message' => $message,
                     ]
-                ],
-                'config' => [
-                    'name' => getenv('EMAIL_NAME') ?: 'English Tips',
-                    'username' => getenv('EMAIL_USERNAME'),
-                    'password' => getenv('EMAIL_PASSWORD')
                 ]
             ],
         ];

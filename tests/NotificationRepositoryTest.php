@@ -52,9 +52,6 @@ class NotificationRepositoryTest extends TestCase
         $this->assertSame('test@local', $notification['recipients'][0]['email']);
         $this->assertSame('Admin', $notification['recipients'][0]['name']);
 
-        $config = $payload['data']['config'];
-        $this->assertSame('English Tips', $config['name']);
-        $this->assertSame('user', $config['username']);
-        $this->assertSame('pass', $config['password']);
+        $this->assertArrayNotHasKey('config', $payload['data']);
     }
 }
