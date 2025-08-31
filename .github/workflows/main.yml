@@ -35,7 +35,7 @@ jobs:
             echo "OPENAI_API_KEY=${{secrets.OPENAI_API_KEY}}" >> .env
             echo "DEEPSEEK_API_KEY=${{secrets.DEEPSEEK_API_KEY}}" >> .env
 
-            echo "API_NOTIFICATION=${{vars.API_NOTIFICATION}}" >> .env
+            echo "API_NOTIFICATION=${{vars.NOTIFY_API}}" >> .env
             echo "EMAIL_NAME=${{vars.EMAIL_NAME}}" >> .env
             echo "EMAIL_USERNAME=${{vars.EMAIL_USERNAME}}" >> .env
             echo "EMAIL_PASSWORD=${{secrets.EMAIL_PASSWORD}}" >> .env
